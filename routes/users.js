@@ -8,6 +8,7 @@ router.delete('/:userId', deleteUser);
 router.get('/', getAllUsers);
 router.put('/:userId', updateUser);
 router.get('/:name', getUserByName);
+router.get('/:name', getUserByName);
 
 
 
